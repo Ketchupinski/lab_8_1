@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  Test.cpp
+C:\Users\Arsen\source\repos\lab_8_1_3\lab_8_1_3\lab_8_1_3.cpp(36): warning C4715: Include: значение возвращается не при всех путях выполнения
+     Создается библиотека C:\Users\Arsen\source\repos\lab_8_1_3\Debug\Test.lib и объект C:\Users\Arsen\source\repos\lab_8_1_3\Debug\Test.exp
+  Test.vcxproj -> C:\Users\Arsen\source\repos\lab_8_1_3\Debug\Test.dll
