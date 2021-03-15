@@ -1,14 +1,14 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 using namespace std;
-void Change(char* str, char* str2, int i, int j, int d);
+void Change(char* str, char* str2, int i, int j, const int d);
 
 int main()
 {
     // заміна символів однакових символів на '**'
     char str[50]; // заданий текст
     cout << "Enter string:" << endl;
-    cin.getline(str, 100);
+    cin.getline(str, 50);
     int d;
     char str2[50]; // допоміжний масив
     d = strlen(str); // довжина рядка str
@@ -20,7 +20,7 @@ int main()
     cout << str << endl;
 }
 
-void Change(char* str, char* str2, int i, int j, int d) {
+void Change(char* str, char* str2, int i, int j, const int d) {
     if (i < d)
     {
         if ((str[i] == str[i + 1]) && (str[i] == str[i + 2]) && (str[i] == str[i + 3])) // провірка на одинакові символи

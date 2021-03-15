@@ -1,7 +1,8 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include "pch.h"
 #include "CppUnitTest.h"
 #include "../lab_8_1_2/lab_8_1_2.cpp"
-#define _CRT_SECURE_NO_WARNINGS
+
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 

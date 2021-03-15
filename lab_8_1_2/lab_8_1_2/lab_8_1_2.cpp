@@ -9,7 +9,7 @@ int main()
     char str[50]; // заданий текст
 
     cout << "Enter string:" << endl;
-    cin.getline(str, 100);
+    cin.getline(str, 50);
 
     Change(str);
 
@@ -30,7 +30,7 @@ void Change(char* str) {
         {
             str2[j++] = '*';
             str2[j++] = '*';
-            i += 3; // заміна символів
+            i += 3; // заміна символів та пересування далі по рядку
         }
         else
         {
