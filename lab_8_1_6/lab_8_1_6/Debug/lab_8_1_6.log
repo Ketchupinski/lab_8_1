@@ -1,1 +1,3 @@
-﻿  lab_8_1_6.vcxproj -> C:\Users\Arsen\source\repos\lab_8_1_6\Debug\lab_8_1_6.exe
+﻿  lab_8_1_6.cpp
+C:\Users\Arsen\source\repos\lab_8_1_6\lab_8_1_6\lab_8_1_6.cpp(26,11): warning C4018: <: несоответствие типов со знаком и без знака
+  lab_8_1_6.vcxproj -> C:\Users\Arsen\source\repos\lab_8_1_6\Debug\lab_8_1_6.exe
